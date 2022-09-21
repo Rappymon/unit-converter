@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', sans-serif;
+}
+
+.title{
+    width: 550px;
+    height: 320px;
+    background: #6943FF;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#input-el{
+    width: 120px;
+    height: 85px;
+    margin: 0px auto;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+button{
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#convert-el{
+    margin: 20px auto;
+    
+}
+
+.units-el{
+    display: flex;
+    justify-content: center;
+}
+
+#lenvolmass-el{
+    margin: 10px;
+}
+
+#temperature-el{
+    margin: 10px;
+}
+
+#units-conversion{
+    width: 550px;
+    height: auto;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#first-div{
+    margin: 36px auto 23px auto;
+    background: #FFFFFF;
+    height: 109px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#second-div{
+    margin: 0px auto 23px auto;
+    background: #FFFFFF;
+    height: 109px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#third-div{
+    margin: 0px auto 23px auto;
+    background: #FFFFFF;
+    height: 109px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2{
+    color: #5A537B;
+    font-size: 20px;
+    margin: 0; 
+    padding-top: 31px;
+}
+
+p{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #353535;
+}
